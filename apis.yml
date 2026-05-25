@@ -1,0 +1,71 @@
+aid: irobot
+name: iRobot
+description: >-
+  iRobot Corporation is a Bedford, Massachusetts consumer robotics company best
+  known for the Roomba robot vacuum and the Braava and Braava jet robot mop
+  product lines. Founded in 1990 by MIT roboticists, iRobot pioneered the home
+  cleaning robot category and has sold tens of millions of units worldwide. Its
+  current portfolio includes the Roomba Max, Roomba Plus, and Roomba 100/200
+  series vacuums and combo (vacuum + mop) models, along with AutoWash and
+  AutoEmpty docks, the iRobot Home App for scheduling and mapping, and a
+  cleaning accessories and trade-in program. The proposed acquisition by
+  Amazon was abandoned in January 2024 after regulatory pushback from the
+  European Commission, after which iRobot underwent a major restructuring and
+  layoffs. iRobot's revenue model is direct robot and accessory sales plus
+  recurring consumables; it does not publish a public developer API, SDK, or
+  OpenAPI specification, and its homesupport documentation explicitly notes
+  that Wi-Fi connected Roombas do not have an open API. A community of
+  unofficial reverse-engineered libraries (dorita980, rest980, pyirobot) exists
+  but is not endorsed by iRobot.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Robotics
+  - Consumer Robotics
+  - Home Robotics
+  - Robot Vacuums
+  - Robot Mops
+  - Roomba
+  - Braava
+  - Smart Home
+  - Internet Of Things
+  - Connected Devices
+  - Hardware
+  - Cleaning
+url: https://raw.githubusercontent.com/api-evangelist/irobot/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.irobot.com
+  - type: About
+    url: https://about.irobot.com
+  - type: Products
+    url: https://www.irobot.com/en_US/roomba.html
+  - type: Support
+    url: https://homesupport.irobot.com
+  - type: OpenAPIStatement
+    url: https://homesupport.irobot.com/app/answers/detail/a_id/9840/~/open-api-availability-for-a-wi-fi-connected-roomba
+  - type: Blog
+    url: https://blog.irobot.com
+  - type: Newsroom
+    url: https://media.irobot.com
+  - type: InvestorRelations
+    url: https://investor.irobot.com
+  - type: Careers
+    url: https://careers.irobot.com
+  - type: GitHub
+    url: https://github.com/iRobot
+  - type: Twitter
+    url: https://twitter.com/iRobot
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/irobot-corporation
+  - type: YouTube
+    url: https://www.youtube.com/user/iRobotCorporation
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
