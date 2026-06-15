@@ -2,10 +2,17 @@
   "repo": "irobot",
   "feeds": [
     {
+      "source": "https://blog.irobot.com",
+      "feed_url": "https://blog.irobot.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://homesupport.irobot.com/app/answers/detail/a_id/9840/~/open-api-availability-for-a-wi-fi-connected-roomba",
       "error": "HTTPError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-01T23:35:02Z"
+  "fetched": "2026-06-14T20:42:17Z"
 }
