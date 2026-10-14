@@ -1,0 +1,42 @@
+edges:
+- partner_name: Connectivity Standards Alliance (Matter)
+  partner: null
+  type: contract
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://on.dcl.csa-iot.org/dcl/vendorinfo/vendors/5398
+  category: Matter certified products
+  contract_reference:
+    register: CSA Distributed Compliance Ledger (Matter certification)
+    spec_file: null
+    standard: Matter
+    role: Matter certified vendor
+    vendor_id: 5398
+    registered_name: iRobot Corporation
+    legal_name: iRobot Corporation
+    landing_page: https://www.irobot.com
+    identity_source: vendorLandingPageURL
+    matched_domain: irobot.com
+    matched_by: domain
+    certified_models: 3
+    certified_products:
+    - product: Robotic Vacuum Cleaner
+      device_type_id: 116
+      models: 3
+      revoked_models: 0
+      latest_certification: '2026-07-30'
+      transports:
+      - wi-fi
+      examples:
+      - Roomba
+      - Roomba Combo 10 Max
+      - Roomba Mini
+      lapsed: false
+    signal_note: certified_products = one entry per device type (diversity), not per model
+    detected_by: sweep-iot.py
+    detected: '2026-10-14'
+generated: '2026-10-14'
+method: searched
+checked:
+- https://on.dcl.csa-iot.org/dcl/vendorinfo/vendors
