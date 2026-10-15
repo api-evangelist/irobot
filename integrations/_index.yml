@@ -43,3 +43,39 @@
     detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
+- slug: irobot-open-robotics-ros-package-index
+  label: Open Robotics (ROS package index)
+  partner_name: Open Robotics (ROS package index)
+  category: ROS packages
+  type: register
+  channel: standard-directory
+  evidence: https://github.com/iRobotEducation/create3_examples.git
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: ROS 2 rosdistro (repo.ros2.org/rosdistro_cache)
+    spec_file: null
+    standard: ROS 2
+    role: ros-package-maintainer
+    matched_domain: irobot.com
+    matched_by: domain
+    source_owner: iRobotEducation
+    distros:
+    - humble
+    - jazzy
+    - kilted
+    - rolling
+    packages: 7
+    sample_packages:
+    - create3_coverage
+    - create3_examples_msgs
+    - create3_examples_py
+    - create3_lidar_slam
+    - create3_republisher
+    - create3_teleop
+    - irobot_create_msgs
+    signal_note: 'participation only: packages/distros are context, never read'
+    detected_by: sweep-industrial-robotics.py
+    detected: '2026-10-15'
+  status: not-a-workflow
+  arazzo: null
